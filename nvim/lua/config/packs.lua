@@ -13,6 +13,7 @@ local specs = {
   "https://github.com/neovim/nvim-lspconfig",
   { src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
   "https://github.com/coder/claudecode.nvim",
+  { src = "https://github.com/saghen/blink.cmp", version = "v1.10.2" },
 }
 
 -- telescope-fzf-native ships a C extension; build it whenever installed/updated
@@ -38,6 +39,8 @@ require("plugins.telescope")
 require("plugins.harpoon")
 require("plugins.nvim-tree")
 require("plugins.lazygit")
+require("plugins.completion")
 require("plugins.lsp")
 require("plugins.treesitter")
 require("plugins.claudecode")
+require("plugins.banner")

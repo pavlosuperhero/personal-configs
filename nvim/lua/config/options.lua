@@ -23,7 +23,7 @@ o.smartcase = true
 o.splitright = true
 o.splitbelow = true
 
-o.updatetime = 4000 -- hover doc popup delay (CursorHold)
+o.updatetime = 300  -- faster CursorHold → hover docs (was 4000)
 
 o.undofile = true
 o.scrolloff = 8
